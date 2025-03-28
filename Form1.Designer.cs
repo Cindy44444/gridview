@@ -38,12 +38,12 @@
             this.gvnose.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvnose.Location = new System.Drawing.Point(38, 46);
             this.gvnose.Name = "gvnose";
-            this.gvnose.Size = new System.Drawing.Size(503, 66);
+            this.gvnose.Size = new System.Drawing.Size(503, 170);
             this.gvnose.TabIndex = 0;
             // 
             // btnmostrar
             // 
-            this.btnmostrar.Location = new System.Drawing.Point(192, 163);
+            this.btnmostrar.Location = new System.Drawing.Point(189, 222);
             this.btnmostrar.Name = "btnmostrar";
             this.btnmostrar.Size = new System.Drawing.Size(191, 58);
             this.btnmostrar.TabIndex = 1;
