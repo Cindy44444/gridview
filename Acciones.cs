@@ -20,6 +20,13 @@ namespace gridview
         {
             return listahijo;
         }
+        public bool InsertarHijo(string nombre, int edad, int estatura, string colorojos, string estudia)
+        {
+            try
+            {
+                
+            }
+        }
         public bool EliminarHijo (string nombre)
         {
             try
