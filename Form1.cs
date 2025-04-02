@@ -40,5 +40,10 @@ namespace gridview
             else
                 MessageBox.Show("Fallo al agregado");
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            //ahoprita lo acabo
+        }
     }
 }
