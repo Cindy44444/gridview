@@ -50,6 +50,19 @@ namespace gridview
                 return false;
             }
         }
+        public bool ActualizarHijo(string nombre, int edad, int estatura, string colorojos, string estudia)
+        {
+            try
+            {
+                var objetoeliminar = listahijo.Find(x => x.nombre == nombre);
+                objetoeliminar.nombre = nombre;
+                return true;
+            }
+            catch(Exception)
+            {
+                return false ;
+            }
+        }
 
         internal bool EliminarHijo(object v)
         {

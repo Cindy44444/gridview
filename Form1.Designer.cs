@@ -44,6 +44,8 @@
             this.lbestudia = new System.Windows.Forms.Label();
             this.txbestudia = new System.Windows.Forms.TextBox();
             this.btnagregar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnlimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvnose)).BeginInit();
             this.SuspendLayout();
             // 
@@ -173,7 +175,7 @@
             // 
             // btnagregar
             // 
-            this.btnagregar.Location = new System.Drawing.Point(481, 420);
+            this.btnagregar.Location = new System.Drawing.Point(444, 420);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(78, 28);
             this.btnagregar.TabIndex = 15;
@@ -181,11 +183,31 @@
             this.btnagregar.UseVisualStyleBackColor = true;
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(528, 420);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(78, 28);
+            this.btnActualizar.TabIndex = 16;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Location = new System.Drawing.Point(602, 46);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(78, 28);
+            this.btnlimpiar.TabIndex = 17;
+            this.btnlimpiar.Text = "Limpiar";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnlimpiar);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnagregar);
             this.Controls.Add(this.txbestudia);
             this.Controls.Add(this.lbestudia);
@@ -228,6 +250,8 @@
         private System.Windows.Forms.Label lbestudia;
         private System.Windows.Forms.TextBox txbestudia;
         private System.Windows.Forms.Button btnagregar;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnlimpiar;
     }
 }
 
