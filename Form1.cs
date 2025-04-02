@@ -20,9 +20,9 @@ namespace gridview
 
         private void btnmostrar_Click(object sender, EventArgs e)
         {
-            
-            gvnose.DataSource = ACC.MostrarHijo();
             gvnose.DataSource = null;
+            gvnose.DataSource = ACC.MostrarHijo();
+            
         }
 
         private void btn2_Click(object sender, EventArgs e)

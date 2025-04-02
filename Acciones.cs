@@ -27,6 +27,7 @@ namespace gridview
                 var objetoeliminar = listahijo.Find(x => x.nombre == nombre);
                 if (objetoeliminar != null)
                 {
+                    listahijo.Remove(objetoeliminar);
                     return true;
                 }
                 return false;
