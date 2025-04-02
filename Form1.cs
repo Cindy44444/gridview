@@ -32,5 +32,13 @@ namespace gridview
             else
                 MessageBox.Show("Fallo al eliminara");
         }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+            if (ACC.InsertarHijo(txbname2.Text, Convert.ToInt32(txbedad.Text), Convert.ToInt32(txbEstatura.Text), txbojos.Text, txbestudia.Text)
+              MessageBox.Show("Agregado con exito");
+            else
+                MessageBox.Show("Fallo al agregado");
+        }
     }
 }
