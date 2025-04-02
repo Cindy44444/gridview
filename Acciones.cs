@@ -16,6 +16,7 @@ namespace gridview
             new Hijo("Thomas",8,168,"negros","no estudia"),
             new Hijo("burbuja",5,130,"azules","no estudia"),
             };
+        Hijo a = new Hijo();
         public List<Hijo> MostrarHijo()
         {
             return listahijo;
@@ -24,7 +25,12 @@ namespace gridview
         {
             try
             {
-                
+                listahijo.Add(new Hijo(a.nombre = nombre, a.edad = edad, a.estatura = estatura, a.colorojos = colorojos, a.estudia = estudia));
+                return true;
+            }
+            catch(Exception)
+            {
+                return false;
             }
         }
         public bool EliminarHijo (string nombre)
