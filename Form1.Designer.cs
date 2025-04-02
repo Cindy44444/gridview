@@ -30,6 +30,9 @@
         {
             this.gvnose = new System.Windows.Forms.DataGridView();
             this.btnmostrar = new System.Windows.Forms.Button();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.txt11 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gvnose)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,17 +54,47 @@
             this.btnmostrar.UseVisualStyleBackColor = true;
             this.btnmostrar.Click += new System.EventHandler(this.btnmostrar_Click);
             // 
+            // lbl2
+            // 
+            this.lbl2.AutoSize = true;
+            this.lbl2.Location = new System.Drawing.Point(51, 328);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(44, 13);
+            this.lbl2.TabIndex = 2;
+            this.lbl2.Text = "Nombre";
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(38, 370);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(78, 28);
+            this.btn2.TabIndex = 3;
+            this.btn2.Text = "Eliminar";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // txt11
+            // 
+            this.txt11.Location = new System.Drawing.Point(38, 344);
+            this.txt11.Name = "txt11";
+            this.txt11.Size = new System.Drawing.Size(78, 20);
+            this.txt11.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt11);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.lbl2);
             this.Controls.Add(this.btnmostrar);
             this.Controls.Add(this.gvnose);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.gvnose)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,6 +102,9 @@
 
         private System.Windows.Forms.DataGridView gvnose;
         private System.Windows.Forms.Button btnmostrar;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.TextBox txt11;
     }
 }
 

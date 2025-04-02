@@ -20,5 +20,26 @@ namespace gridview
         {
             return listahijo;
         }
+        public bool EliminarHijo (string nombre)
+        {
+            try
+            {
+                var objetoeliminar = listahijo.Find(x => x.nombre == nombre);
+                if (objetoeliminar != null)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        internal bool EliminarHijo(object v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
