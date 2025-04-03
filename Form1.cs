@@ -45,5 +45,14 @@ namespace gridview
         {
             //ahoprita lo acabo
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txbname2.Text = "";
+            txbedad.Text = "";
+            txbEstatura.Text = "";
+            txbojos.Text = "";
+            txbestudia.Text = "";
+        }
     }
 }
