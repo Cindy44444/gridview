@@ -30,8 +30,8 @@
         {
             this.gvnose = new System.Windows.Forms.DataGridView();
             this.btnmostrar = new System.Windows.Forms.Button();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.btn2 = new System.Windows.Forms.Button();
+            this.lbname1 = new System.Windows.Forms.Label();
+            this.btneliminar = new System.Windows.Forms.Button();
             this.txteliminar = new System.Windows.Forms.TextBox();
             this.lbname2 = new System.Windows.Forms.Label();
             this.txbname2 = new System.Windows.Forms.TextBox();
@@ -67,24 +67,24 @@
             this.btnmostrar.UseVisualStyleBackColor = true;
             this.btnmostrar.Click += new System.EventHandler(this.btnmostrar_Click);
             // 
-            // lbl2
+            // lbname1
             // 
-            this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(51, 328);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(44, 13);
-            this.lbl2.TabIndex = 2;
-            this.lbl2.Text = "Nombre";
+            this.lbname1.AutoSize = true;
+            this.lbname1.Location = new System.Drawing.Point(51, 328);
+            this.lbname1.Name = "lbname1";
+            this.lbname1.Size = new System.Drawing.Size(44, 13);
+            this.lbname1.TabIndex = 2;
+            this.lbname1.Text = "Nombre";
             // 
-            // btn2
+            // btneliminar
             // 
-            this.btn2.Location = new System.Drawing.Point(38, 370);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(78, 28);
-            this.btn2.TabIndex = 3;
-            this.btn2.Text = "Eliminar";
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btneliminar.Location = new System.Drawing.Point(38, 370);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(78, 28);
+            this.btneliminar.TabIndex = 3;
+            this.btneliminar.Text = "Eliminar";
+            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btn2_Click);
             // 
             // txteliminar
             // 
@@ -222,8 +222,8 @@
             this.Controls.Add(this.txbname2);
             this.Controls.Add(this.lbname2);
             this.Controls.Add(this.txteliminar);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.btneliminar);
+            this.Controls.Add(this.lbname1);
             this.Controls.Add(this.btnmostrar);
             this.Controls.Add(this.gvnose);
             this.Name = "Form1";
@@ -238,8 +238,8 @@
 
         private System.Windows.Forms.DataGridView gvnose;
         private System.Windows.Forms.Button btnmostrar;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Label lbname1;
+        private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.TextBox txteliminar;
         private System.Windows.Forms.Label lbname2;
         private System.Windows.Forms.TextBox txbname2;
