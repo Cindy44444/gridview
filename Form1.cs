@@ -27,7 +27,7 @@ namespace gridview
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            if (ACC.EliminarHijo(txt11.Text))
+            if (ACC.EliminarHijo(txteliminar.Text))
                 MessageBox.Show("Eliminado con exito");
             else
                 MessageBox.Show("Fallo al eliminara");
@@ -60,6 +60,8 @@ namespace gridview
             txbEstatura.Text = "";
             txbojos.Text = "";
             txbestudia.Text = "";
+            txteliminar.Text = "";
+            
         }
     }
 }

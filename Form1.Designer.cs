@@ -32,7 +32,7 @@
             this.btnmostrar = new System.Windows.Forms.Button();
             this.lbl2 = new System.Windows.Forms.Label();
             this.btn2 = new System.Windows.Forms.Button();
-            this.txt11 = new System.Windows.Forms.TextBox();
+            this.txteliminar = new System.Windows.Forms.TextBox();
             this.lbname2 = new System.Windows.Forms.Label();
             this.txbname2 = new System.Windows.Forms.TextBox();
             this.lbedad = new System.Windows.Forms.Label();
@@ -86,12 +86,12 @@
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // txt11
+            // txteliminar
             // 
-            this.txt11.Location = new System.Drawing.Point(38, 344);
-            this.txt11.Name = "txt11";
-            this.txt11.Size = new System.Drawing.Size(78, 20);
-            this.txt11.TabIndex = 4;
+            this.txteliminar.Location = new System.Drawing.Point(38, 344);
+            this.txteliminar.Name = "txteliminar";
+            this.txteliminar.Size = new System.Drawing.Size(78, 20);
+            this.txteliminar.TabIndex = 4;
             // 
             // lbname2
             // 
@@ -221,7 +221,7 @@
             this.Controls.Add(this.lbedad);
             this.Controls.Add(this.txbname2);
             this.Controls.Add(this.lbname2);
-            this.Controls.Add(this.txt11);
+            this.Controls.Add(this.txteliminar);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.btnmostrar);
@@ -240,7 +240,7 @@
         private System.Windows.Forms.Button btnmostrar;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.TextBox txt11;
+        private System.Windows.Forms.TextBox txteliminar;
         private System.Windows.Forms.Label lbname2;
         private System.Windows.Forms.TextBox txbname2;
         private System.Windows.Forms.Label lbedad;
