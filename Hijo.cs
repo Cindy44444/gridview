@@ -8,9 +8,9 @@ namespace gridview
 {
     internal class Hijo : Padre
     {
-        public Hijo() { }
-        public Hijo(string nombre, int edad, int estatura,string colorojos, string estudia)
-        :base(nombre,edad,estatura)
+        public Hijo () { }
+        public Hijo(string nombre, string edad, string estatura,string colorojos, string estudia)
+        :base(nombre, edad, estatura)
         {
             this.colorojos = colorojos;
             this.estudia = estudia;

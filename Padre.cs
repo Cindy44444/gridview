@@ -9,7 +9,8 @@ namespace gridview
     internal class Padre
     {
         public Padre() { }
-        public Padre(string nombre, int edad, int estatura)
+
+        public Padre(string nombre, string edad, string estatura)
         {
             this.nombre = nombre;
             this.edad = edad;
@@ -17,8 +18,8 @@ namespace gridview
         }
 
         public string nombre { get; set; }
-        public int edad { get; set; }
-        public int estatura { get; set; }
+        public string edad { get; set; }
+        public string estatura { get; set; }
         
 
     }

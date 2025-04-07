@@ -35,7 +35,7 @@ namespace gridview
 
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            if (ACC.InsertarHijo(txbname2.Text, Convert.ToInt32(txbedad.Text), Convert.ToInt32(txbEstatura.Text), txbojos.Text, txbestudia.Text))
+            if (ACC.InsertarHijo(txbname2.Text, txbedad.Text, txbEstatura.Text, txbojos.Text, txbestudia.Text))
               MessageBox.Show("Agregado con exito");
             else
                 MessageBox.Show("Fallo al agregado");
@@ -43,7 +43,14 @@ namespace gridview
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            //ahoprita lo acabo
+            if (ACC.ActualizarHijo(txbname2.Text,txbedad.Text, txbEstatura.Text, txbojos.Text, txbestudia.Text))
+            {
+                MessageBox.Show("Actualizado con exito");
+            }
+            else
+            {
+                MessageBox.Show("fallo en actualizar");
+            }
         }
 
         private void btnlimpiar_Click(object sender, EventArgs e)
